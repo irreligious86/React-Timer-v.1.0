@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+
+.app-screen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    gap: 45px;
+
+    width: 100%;
+    height: 100px;
+    margin: 15px 0;
+    background-color: black;
+    box-shadow: 0 0 38px -7px rgba(0, 0, 0, 0.7);
+}
+
+.hours-digit, .minutes-digit, .seconds-digit {
+    display: flex;
+    flex-direction: column;
+}
+
+.digit {
+    font-family: 'Roboto Mono', monospace;
+    color: greenyellow;
+    font-size: xx-large;
+}
+
+.subtitle {
+    color: #ef6e6e;
+    font-size: small;
+}
+

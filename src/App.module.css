@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(255, 253, 253, 0.28);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    width: min(650px, 100%);
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: stretch;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(217, 213, 129, 0.69);
+    box-shadow: inset 0 0 8px 3px rgba(178, 155, 59, 0.56),
+    inset 0 0 18px 6px rgba(93, 100, 34, 0.5), 2px 2px 25px -6px rgba(0, 0, 0, 0.71);
+    margin: 5px auto;
+    padding: 10px;
+}

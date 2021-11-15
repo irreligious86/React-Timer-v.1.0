@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+.app-title {
+    font-family: 'Estonia', cursive;
+    font-size: xxx-large;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.6);
+}
